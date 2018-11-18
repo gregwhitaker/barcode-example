@@ -9,13 +9,16 @@ Follow the steps below to run the example:
 
         ./gradlew generateBarcode
         
-    If successful, you will see the generated [QR Barcode](./myqrcode.png).
+    If successful, you will see the generated QR barcode `myqrcode.png` in the root project directory.
     
 2. Run the following command to read the data from the generated barcode:
 
         ./gradlew readBarcode
         
     If successful, you will see the decoded data in the terminal:
+    
+        > Task :readBarcode
+        {"recipientFirstName":"John","recipientLastName":"Smith","street1":"201 South Main St.","unitNumber":3,"city":"Hoboken","state":"NJ","zipcode":"07030","plus4code":"0009"}
 
 ## Bugs and Feedback
 For bugs, questions, and discussions please use the [Github Issues](https://github.com/gregwhitaker/barcode-example/issues).

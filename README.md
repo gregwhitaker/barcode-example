@@ -1,6 +1,6 @@
 # barcode-example
 
-An example of using [ZXing](https://github.com/zxing/zxing) to generate bar codes.
+An example of using [ZXing](https://github.com/zxing/zxing) to generate barcodes.
 
 ## Running the Example
 

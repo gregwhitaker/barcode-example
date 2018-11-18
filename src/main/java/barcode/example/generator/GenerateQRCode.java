@@ -13,7 +13,7 @@ import java.nio.file.Path;
 
 public class GenerateQRCode {
 
-    public static void generate() throws Exception {
+    public static void generate(String imagePath) throws Exception {
         // Dummy data to encode to qr code
         Address address = new Address();
         address.setRecipientFirstName("John");
@@ -29,7 +29,7 @@ public class GenerateQRCode {
         ObjectMapper mapper = new ObjectMapper();
         String data = mapper.writeValueAsString(address);
 
-        GenerateQRCode.generateAsImage(data, 350, 350, "./qrcode.png");
+        GenerateQRCode.generateAsImage(data, 350, 350, imagePath);
     }
 
     private static void generateAsImage(String data, int width, int height, String filename) throws Exception {

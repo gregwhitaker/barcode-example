@@ -1,4 +1,5 @@
 # barcode-example
+[![Build Status](https://travis-ci.org/gregwhitaker/barcode-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/barcode-example)
 
 An example of using [ZXing](https://github.com/zxing/zxing) to generate barcodes.
 

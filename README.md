@@ -3,6 +3,19 @@
 An example of using [ZXing](https://github.com/zxing/zxing) to generate barcodes.
 
 ## Running the Example
+Follow the steps below to run the example:
+
+1. Run the following command to generate a QR code named `myqrcode.png` in the root directory:
+
+        ./gradlew generateBarcode
+        
+    If successful, you will see the generated [QR Barcode](./myqrcode.png).
+    
+2. Run the following command to read the data from the generated barcode:
+
+        ./gradlew readBarcode
+        
+    If successful, you will see the decoded data in the terminal:
 
 ## Bugs and Feedback
 For bugs, questions, and discussions please use the [Github Issues](https://github.com/gregwhitaker/barcode-example/issues).
